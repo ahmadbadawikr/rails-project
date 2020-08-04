@@ -19,3 +19,14 @@ $am-theme-secondary: red;
 // For example, to change the default status-tag color:
 //
 //   .status_tag { background: #6090DB; }
+
+@import 'activeadmin/quill_editor_input';
+
+.note-body {
+    padding: 1em;
+    margin: 1em;
+    background-color: #e6e6e6;
+    -webkit-box-shadow: 10px 15px 20px 14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 15px 20px 14px rgba(0,0,0,0.75);
+    box-shadow: 10px 15px 20px 14px rgba(0,0,0,0.75);
+}
